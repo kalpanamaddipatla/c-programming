@@ -1,0 +1,14 @@
+# c-programming
+#include<stdio.h>
+ int main()
+{
+float c,ce,f,fa;
+printf("\nEnter a celcius value to convert to farenheit");
+scanf("%f",&c);
+fa=(1.8*c)+32;
+printf("\n\t%0.2f celcius value to convert to farenheit,"c,fa);
+scanf("%f",&f);
+ce=(f-32)/1.8;
+printf("\n\t%0.2f farenheit=%0.2f celcius,"f,ce);
+return 0;
+}
